@@ -1,0 +1,34 @@
+select,
+.ant-select-selector {
+  width: 100%;
+  min-height: 63px;
+  border-radius: 10px !important;
+  border: 1px solid #dbdbdb;
+  background-color: transparent;
+  padding: 0 20px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.ant-select {
+  width: 100%;
+
+  .ant-select-selection-item {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .ant-select-arrow {
+    border-left: 1px solid #dbdbdb;
+    height: 60%;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-42%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+}

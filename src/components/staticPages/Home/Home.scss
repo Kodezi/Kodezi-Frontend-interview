@@ -1,0 +1,116 @@
+.section-container {
+  &.home-container {
+    background-color: rgba(229, 229, 229, 0.6);
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  min-height: 48px;
+  border-radius: 28px;
+}
+
+.home-wrapper {
+  padding: 200px 0 0 0;
+
+  .sub-section {
+    &__one {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .left-side {
+        width: 70%;
+        text-align: left;
+      }
+      .right-side {
+        width: 30%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .heading {
+        font-size: 78px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 84px;
+        margin: 0;
+      }
+      .sub-heading {
+        margin: 16px 0 31px 0;
+        text-align: left;
+      }
+
+      .btn-link {
+        min-width: 150px;
+        height: 48px;
+        background-color: #fff;
+        color: #2c2c2c;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+
+    &__two {
+      padding: 140px 0 91px 0;
+      text-align: center;
+
+      .heading {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 46px;
+        letter-spacing: 0em;
+      }
+
+      .sub-heading {
+        padding: 16px 0 91px 0;
+      }
+
+      .try-now-btn {
+        min-width: 150px;
+        height: 48px;
+        margin-top: 91px;
+        background-color: #b1a7e4;
+        color: #ffff;
+      }
+    }
+
+    &__three {
+      padding-top: 145px;
+
+      .main {
+        margin: 0 -50px;
+        padding: 50px;
+      }
+    }
+  }
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+
+  .logo-tile {
+    min-width: 264px;
+    text-align: center;
+    min-height: 113px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  }
+}
+
+.learning-card-section {
+  padding-top: 120px;
+}

@@ -1,0 +1,17 @@
+.section-container {
+  &.privacy-policy-container {
+    background-color: rgba(229, 229, 229, 0.6);
+  }
+}
+
+.privacy-policy-wrapper {
+  padding: 80px 0 160px 0;
+
+  .img {
+    text-align: center;
+  }
+
+  .policy-content {
+    margin-top: 80px;
+  }
+}

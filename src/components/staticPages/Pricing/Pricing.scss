@@ -1,0 +1,132 @@
+.section-container {
+  &.pricing-container {
+    background-color: #f9f8ff;
+    padding: 140px 0;
+  }
+}
+
+.pricing-wrapper {
+  .heading {
+    text-align: center;
+    color: #2c2c2c;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 68px;
+    text-transform: capitalize;
+  }
+
+  .cards-wrapper {
+    margin-top: 30px;
+
+    .single-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-width: 362px;
+      min-height: 787px;
+      padding: 42px 34px 32px 34px;
+      text-align: left;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+
+      .status {
+        margin: 0;
+        color: #b1a7e4;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+      }
+
+      .heading {
+        margin-top: 16px;
+        margin-bottom: 20px;
+        text-align: left;
+        color: #363636;
+
+        span {
+          margin-left: 13px;
+          color: #2c2c2c;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0px;
+        }
+      }
+
+      .sub-heading {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .card-icon {
+        width: 28px;
+        height: 28px;
+        margin: 0;
+        margin-right: 14px;
+      }
+
+      .points {
+        margin-top: 14px;
+      }
+
+      .custom-flex {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 0;
+        padding: 14px 0;
+        border-top: 1px solid rgba(177, 167, 228, 0.59);
+
+        .card {
+          &__title {
+            margin: 0;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: left;
+
+            span {
+              font-weight: 500;
+            }
+          }
+
+          &__text {
+            margin: 0;
+            color: #999999;
+          }
+        }
+      }
+
+      .pricing-btn {
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 64px;
+          background: linear-gradient(270deg, #d1c9f5 0%, #b1a7e4 100%);
+          box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.06);
+          border-radius: 12px;
+          color: #fff;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 15px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+}

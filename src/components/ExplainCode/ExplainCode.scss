@@ -1,0 +1,298 @@
+.sub-header {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  height: 110px;
+  margin-bottom: 30px;
+  padding: 20px 50px;
+
+  @media (min-width: 1600px) {
+    min-height: 160px;
+    padding-left: 387px;
+    padding-right: 387px;
+  }
+
+  .img {
+    margin-right: 18px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    h4 {
+      margin: 0;
+      color: #545454;
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    p {
+      color: #545454;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+}
+
+.explain-code-wrapper {
+  button {
+    &.back-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #b1a7e457;
+      border: 0;
+      width: 50px;
+      height: 50px;
+
+      @media (min-width: 1600px) {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+
+  .main-tabs {
+    .ant-tabs-nav {
+      &:before {
+        border: 0;
+      }
+    }
+
+    .ant-tabs-ink-bar {
+      display: none;
+    }
+
+    .ant-tabs-nav-list {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .ant-tabs-tab {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 181px;
+      height: 77px;
+      margin: 0;
+      color: #545454;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+
+      &.ant-tabs-tab-active {
+        background-color: #b1a7e4;
+
+        .ant-tabs-tab-btn {
+          color: #fff;
+        }
+      }
+
+      .ant-tabs-tab-btn {
+        p {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+          padding: 0;
+        }
+
+        svg {
+          margin-right: 8px;
+          path {
+            stroke: #545454;
+          }
+        }
+
+        &[aria-selected='true'] p {
+          svg {
+            path {
+              stroke: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .tabs-body-wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 137px;
+
+      .inner-wrapper {
+        width: 48%;
+        min-height: 200px;
+        padding: 32px;
+        box-shadow: 0px 8px 30px 8px rgba(0, 0, 0, 0.08);
+        text-align: left;
+
+        .detail {
+          .img-with-text {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dbdbdb;
+
+            &:first-child {
+              padding-top: 50px;
+            }
+
+            &:last-child {
+              border-bottom: unset;
+            }
+
+            .icon-with-color {
+              width: 28px;
+              height: 28px;
+            }
+
+            .content {
+              width: 90%;
+
+              p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+              }
+            }
+          }
+        }
+
+        .content-wrapper {
+          h4,
+          p {
+            margin: 0;
+          }
+
+          h4 {
+            margin-bottom: 6px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 19px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+
+          p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+
+          form {
+            margin-top: 48px;
+
+            .field-wrapper {
+              margin-bottom: 48px;
+
+              .label {
+                margin-bottom: 10px;
+              }
+
+              input {
+                padding: 0 20px;
+              }
+
+              textarea {
+                width: 100%;
+                min-height: 140px;
+                padding: 24px 20px 20px 20px;
+                border: 1px solid #dbdbdb;
+                border-radius: 10px;
+              }
+            }
+
+            .bottom-label {
+              margin-top: 10px;
+              color: #808080;
+              font-family: 'Roboto', sans-serif;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 13px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+
+            .input-wrapper {
+              position: relative;
+            }
+
+            .character-allow-limit {
+              position: absolute;
+              right: 4%;
+              bottom: 20%;
+              color: #808080;
+              font-family: 'Roboto', sans-serif;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 11px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+
+            .submit-btn {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              width: auto;
+              min-width: 180px;
+              border-radius: 0;
+
+              svg {
+                margin-right: 12px;
+              }
+            }
+          }
+        }
+
+        &.right-side {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .card-bottom {
+            display: flex;
+            justify-content: space-between;
+
+            button {
+              background-color: transparent;
+              border: 0;
+
+              svg {
+                path {
+                  stroke: #545454;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
